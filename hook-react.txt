@@ -1,0 +1,19 @@
+useHistory:
+=> 
+    - Trả về history instance, dùng để navigate
+    - Để di chuyển qua trang khác ( thay vì dùng Link )
+
+useLocation:
+=> 
+    - Trả về location object của URL hiện tại
+    - Xử lý với URL params (phần ?page=123)
+
+useParams:
+=> 
+    - Trả về path params object của URL hiện tại
+    - Xử lý path params ( phần /albums)
+
+useRouteMatch:
+=> 
+    - Trả về match object của URL hiện tại
+    - Nested routing

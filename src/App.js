@@ -1,12 +1,12 @@
-import { Redirect, Route, Switch } from "react-router-dom"
-import "./App.css"
-import Header from "./components/Header"
-import NotFound from "./components/NotFound"
-import Album from "./feature/Album"
-import CartFilter from "./feature/Cart"
-import CounterFeature from "./feature/Counter"
-import ProductFeature from "./feature/Product"
-import TodoFeature from "./feature/Todo"
+import { Redirect, Route, Switch } from 'react-router-dom'
+import './App.css'
+import Header from './components/Header'
+import NotFound from './components/NotFound'
+import Album from './feature/Album'
+import CartFilter from './feature/Cart'
+import CounterFeature from './feature/Counter'
+import ProductFeature from './feature/Product'
+import TodoFeature from './feature/Todo'
 
 function App() {
   return (
